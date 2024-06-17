@@ -3,11 +3,11 @@
 
 // Key pinout
 #define USE_INPUT_PULLUP
-#define K_LEFT              6
-#define K_RIGHT             7
-#define K_UP                8
-#define K_DOWN              3
-#define K_FIRE              10
+#define K_LEFT              2 // 2
+#define K_RIGHT             4
+#define K_UP                5
+#define K_DOWN              3 // 5
+#define K_FIRE              6
 
 // SNES Controller
 // uncomment following line to enable snes controller support
@@ -20,7 +20,10 @@ constexpr uint8_t DATA_SERIAL  = 13;
 constexpr uint8_t SOUND_PIN   = 9; // do not change, belongs to used timer
 
 // GFX settings
-#define OPTIMIZE_SSD1306                // Optimizations for SSD1366 displays
+// #define OPTIMIZE_SSD1306                // Optimizations for SSD1366 displays
+#define OPTIMIZE_ST7735                 // Optimizations for ST7735 displays
+
+#define COLOR_DISPLAY // enable for color displays; will shade walls and color keys yellow
 
 #define FRAME_TIME          66.666666   // Desired time per frame in ms (66.666666 is ~15 fps)
 #define RES_DIVIDER         2           // Higher values will result in lower horizontal resolution when rasterize and lower process and memory usage
