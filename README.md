@@ -1,4 +1,9 @@
 # doom-nano
+## Note: This is a fork of the original doom-nano
+This fork is modified to support using the ST7789 display driver
+I plan on writing some more documentation soon, and possibly incorporating it into a bigger project
+For now, you can read [here](https://github.com/daveruiz/doom-nano/issues/12#issuecomment-2174614844)
+
 A 3d raycast engine for Arduino
 
 ![](/images/screen-1.jpg?raw=true)
